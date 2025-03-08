@@ -18,16 +18,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("26691902", ""))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("be9744acfca84ae606d0da13b1b8e129")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7773814234:AAFxEFniRR5LbHMtV_vSc_OKQQwobcqLPvo")
 
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://ffsouthafricaff:
+ffsouthafricaff@cluster0.vnrq7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -69,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "")
+LOG_GROUP_ID = getenv("-1002448166974", "")
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1808943146").split())
+    map(int, getenv("OWNER_ID", "5239830469").split())
 )  # Input type must be interger
 
 
