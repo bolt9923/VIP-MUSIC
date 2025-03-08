@@ -120,11 +120,11 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
+    "SUPPORT_GROUP", "https://t.me/huntermafiya"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
+    "SUPPORT_GROUP", "https://t.me/huntermafiya"
 )  # Example:- https://t.me/TG_FRIENDSS
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
@@ -187,7 +187,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQFNtIsAEVSX4VYtHOQHhGPD1g-IiCe-SxXXSOXd-Csq8uw3y7QIW8fJUApAYWDashUadLtzW-B4RnQ2cv5YFnqazoL-TMtH2cIkDaDkyZtIXpcsMNGQXDSQpzz6HdjV5Uouqo4gmexu5mIpYlxi54SlbhvLmfEsibJYqHgZtYs_-Ef19g-GSKNLvGCq4GGYSB-1mQjSeOK9ng_maNFfuESvnPhLDSBjQ7o4VRzVzdvXK299HEVdygkuFrMeu3GKBPBgKyDmgDS9o39SbSQ4ezB1qCmnxtwe17_syTZYW3pQg1bGwwnmSreW1p-qHt0-lAX03Gqnpa1yjONNhh8h1Ykq0oVZxgAAAAB9uURdAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
