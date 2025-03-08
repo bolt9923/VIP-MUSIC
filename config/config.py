@@ -27,9 +27,7 @@ API_HASH = getenv("be9744acfca84ae606d0da13b1b8e129")
 BOT_TOKEN = getenv("7773814234:AAFxEFniRR5LbHMtV_vSc_OKQQwobcqLPvo")
 
 
-MONGO_DB_URI = getenv("mongodb+srv://ffsouthafricaff:
-ffsouthafricaff@cluster0.vnrq7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
-
+MONGO_DB_URI = getenv("mongodb://an12045516:an12045516@<hostname>/?ssl=true&replicaSet=atlas-75b5jw-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0:
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "18000")
